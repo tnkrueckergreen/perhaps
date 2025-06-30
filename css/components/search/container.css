@@ -1,0 +1,25 @@
+/* --- SEARCH CONTAINER (IN OVERLAY) STYLES --- */
+.search-container {
+    width: 100%;
+    max-width: 700px;
+    padding: 0 20px;
+}
+
+#search-input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid var(--color-border);
+    background-color: transparent;
+    font-size: 2.5rem;
+    font-family: var(--font-serif);
+    color: var(--color-dark);
+    padding: 1rem 0;
+}
+#search-input:focus {
+    outline: none;
+    border-bottom-color: var(--color-brand-green);
+}
+#search-input::placeholder {
+    color: var(--color-border);
+}
+[END_FILE]

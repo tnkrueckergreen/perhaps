@@ -1,0 +1,23 @@
+/* Imports single article sub-components */
+@import url('./single/layout.css');
+@import url('./single/header.css');
+@import url('./single/image.css');
+
+.single-article-content { 
+    max-width: 750px; 
+    margin: 0 auto; 
+}
+
+.single-article-content p { 
+    font-family: var(--font-serif); 
+    font-size: 1.2rem; 
+    line-height: 1.8; 
+    margin-bottom: 2rem; 
+    color: var(--color-dark); 
+}
+
+.single-article-content h3 { 
+    font-family: var(--font-serif); 
+    margin-top: 3rem; 
+}
+[END_FILE]

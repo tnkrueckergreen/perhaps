@@ -1,0 +1,14 @@
+/* --- GLOBAL CSS VARIABLES --- */
+:root {
+    --font-serif: 'Lora', serif;
+    --font-sans: 'Inter', sans-serif;
+    --color-bg: #FDFDFC;
+    --color-dark: #1A1A1A;
+    --color-text-secondary: #6B7280;
+    --color-brand-green: #1E3A2B;
+    --color-border: #E5E7EB;
+    --color-light-gray: #f7f7f7;
+    --shadow: 0 8px 30px rgba(0,0,0,0.08);
+    --transition-smooth: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+[END_FILE]

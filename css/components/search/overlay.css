@@ -1,0 +1,39 @@
+/* --- SEARCH OVERLAY STYLES --- */
+.search-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(253, 253, 252, 0.95);
+    backdrop-filter: blur(8px);
+    z-index: 3000;
+    display: flex;
+    justify-content: center;
+    padding-top: 15vh;
+    
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.search-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.search-close-btn {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    font-size: 3rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--color-text-secondary);
+    line-height: 1;
+}
+.search-close-btn:hover {
+    color: var(--color-dark);
+}
+[END_FILE]

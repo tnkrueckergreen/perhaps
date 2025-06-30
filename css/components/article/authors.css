@@ -1,0 +1,4 @@
+/* Imports author-related sub-components */
+@import url('./authors/avatar.css');
+@import url('./authors/bio.css');
+[END_FILE]

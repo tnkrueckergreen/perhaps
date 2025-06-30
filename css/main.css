@@ -1,0 +1,22 @@
+/* --- GLOBAL STYLES & VARIABLES --- */
+@import url('base/variables.css');
+@import url('base/globals.css');
+@import url('base/animations.css');
+
+/* --- COMPONENT IMPORTS --- */
+@import url('components/header.css');
+@import url('components/footer.css');
+@import url('components/card.css');
+@import url('components/home.css');
+@import url('components/about.css');
+@import url('components/article.css');
+@import url('components/issues.css');
+@import url('components/modal.css');
+@import url('components/subscribe.css');
+@import url('components/contact.css');
+@import url('components/search.css');
+
+/* --- RESPONSIVE IMPORTS --- */
+@import url('responsive/tablet.css');
+@import url('responsive/mobile.css');
+[END_FILE]

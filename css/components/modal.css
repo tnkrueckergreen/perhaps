@@ -1,0 +1,5 @@
+/* Imports all modal related styles */
+@import url('./modal/overlay.css');
+@import url('./modal/content.css');
+@import url('./modal/body.css');
+[END_FILE]

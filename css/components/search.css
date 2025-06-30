@@ -1,0 +1,5 @@
+/* Imports all search-related styles */
+@import url('./search/overlay.css');
+@import url('./search/container.css');
+@import url('./search/results-page.css');
+[END_FILE]

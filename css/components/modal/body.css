@@ -1,0 +1,30 @@
+/* --- MODAL BODY STYLES --- */
+.modal-body { 
+    display: flex; 
+    gap: 2rem; 
+}
+.modal-img { 
+    flex-shrink: 0; 
+    width: 200px; 
+    height: 200px; 
+    border-radius: 8px; 
+    object-fit: cover; 
+}
+.modal-bio h2 { 
+    font-family: var(--font-serif); 
+    font-size: 2rem; 
+    margin-bottom: 0.2rem; 
+}
+.modal-bio h4 { 
+    font-family: var(--font-sans); 
+    font-weight: 400; 
+    color: var(--color-text-secondary); 
+    font-size: 1.1rem; 
+    margin-bottom: 1.5rem; 
+}
+.modal-bio p { 
+    font-size: 1rem; 
+    line-height: 1.8; 
+    color: var(--color-dark); 
+}
+[END_FILE]

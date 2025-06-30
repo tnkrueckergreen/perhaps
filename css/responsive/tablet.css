@@ -1,0 +1,26 @@
+/* --- TABLET (< 1024px) --- */
+@media (max-width: 1024px) {
+    #home-page .content-grid { 
+        grid-template-columns: 1fr; 
+        gap: 80px; 
+    }
+    .main-nav { 
+        display: none; 
+    }
+    .mobile-toggle { 
+        display: block; 
+    }
+    
+    /* When search is active on tablet, hide mobile toggle */
+    body.search-active .mobile-toggle { 
+        display: none; 
+    }
+
+    #home-page .welcome-section h1 { 
+        font-size: 48px; 
+    }
+    #home-page .article-title-large { 
+        font-size: 40px; 
+    }
+}
+[END_FILE]

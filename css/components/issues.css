@@ -1,0 +1,72 @@
+/* --- ISSUES PAGE STYLES --- */
+.issue-list { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); 
+    gap: 2rem; 
+    padding: 0 2rem 4rem 2rem; 
+}
+
+.issue-card {
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition-smooth);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.issue-card:hover { 
+    box-shadow: var(--shadow); 
+    transform: translateY(-5px); 
+    border-color: transparent; 
+}
+.issue-card .icon img { 
+    margin: 0 auto 1rem auto; 
+    width: 48px; 
+    height: 48px; 
+}
+.issue-card h4 { 
+    font-family: var(--font-serif); 
+    font-size: 1.25rem; 
+    margin-bottom: 1.5rem; 
+}
+
+.issue-actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.issue-btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-align: center;
+    flex-grow: 1;
+    max-width: 150px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+.issue-btn.view-btn {
+    background-color: var(--color-brand-green);
+    color: white;
+}
+.issue-btn.download-btn {
+    background-color: transparent;
+    color: var(--color-brand-green);
+    border-color: var(--color-brand-green);
+}
+.issue-btn.download-btn:hover {
+    background-color: var(--color-brand-green);
+    color: white;
+    opacity: 1;
+}
+.issue-btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+[END_FILE]

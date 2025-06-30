@@ -1,0 +1,22 @@
+/* --- FOOTER CTA BANNER --- */
+.footer-cta {
+    background-color: var(--color-brand-green); 
+    color: white;
+    text-align: center; 
+    padding: 120px 40px;
+    transition: display 0.3s;
+}
+
+.footer-cta.hidden {
+    display: none;
+}
+
+.footer-cta h2 { 
+    font-family: var(--font-serif); 
+    font-weight: 400; 
+    font-size: 56px; 
+    line-height: 1.2; 
+    max-width: 750px; 
+    margin: 0 auto; 
+}
+[END_FILE]

@@ -1,0 +1,35 @@
+/* Contact page layout styles */
+.contact-page .page-header {
+    padding-bottom: 2rem;
+}
+
+.contact-page .page-header h1 {
+    font-size: 3.5rem;
+}
+
+.contact-page .page-header p {
+    font-size: 1.1rem;
+    max-width: 700px;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 5rem;
+    align-items: start;
+}
+
+.contact-form-wrapper h3 {
+    font-family: var(--font-serif);
+    font-size: 1.75rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.contact-form-wrapper p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--color-text-secondary);
+    margin-bottom: 2rem;
+}
+[END_FILE]

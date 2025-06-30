@@ -1,0 +1,41 @@
+/* Author bios and multi-author display styles */
+.author-bios-container {
+    margin-top: 5rem;
+    padding: 2.5rem;
+    background-color: var(--color-light-gray);
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+}
+
+.author-profile {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.author-profile img { 
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%; 
+    flex-shrink: 0; 
+}
+
+.author-profile h4 { 
+    font-family: var(--font-sans); 
+    font-weight: 700; 
+    margin-bottom: 0.25rem; 
+}
+
+.author-profile p { 
+    margin-bottom: 0; 
+    font-size: 0.9rem; 
+    line-height: 1.6; 
+}
+
+.author-separator {
+    border: 0;
+    height: 1px;
+    background-color: var(--color-border);
+    margin: 2rem 0;
+}
+[END_FILE]

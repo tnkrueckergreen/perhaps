@@ -1,0 +1,59 @@
+/* --- HOME PAGE: LAYOUT STYLES --- */
+
+#home-page .welcome-section { 
+    padding-top: 80px; 
+    padding-bottom: 40px; 
+}
+
+#home-page .welcome-section h1 {
+    font-family: var(--font-serif); 
+    font-weight: 400; 
+    font-size: 64px;
+    line-height: 1.2; 
+    max-width: 800px; 
+    margin: 0 auto; 
+    text-align: center;
+}
+
+#home-page .main-divider { 
+    border: 0; 
+    border-top: 1px solid var(--color-border); 
+    margin: 40px 0 0 0; 
+}
+
+#home-page .content-grid { 
+    padding-top: 40px; 
+    display: grid; 
+    grid-template-columns: 1.7fr 1.3fr; 
+    gap: 80px; 
+    align-items: start; 
+}
+
+#home-page .section-title { 
+    font-size: 18px; 
+    font-weight: 600; 
+    margin: 0 0 20px 0; 
+}
+
+#home-page .featured-column { 
+    display: flex; 
+    flex-direction: column; 
+}
+
+#home-page .featured-articles-wrapper { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 80px; 
+}
+
+#home-page .recent-column { 
+    display: flex; 
+    flex-direction: column; 
+}
+
+#home-page .recent-grid { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 40px 32px; 
+}
+[END_FILE]

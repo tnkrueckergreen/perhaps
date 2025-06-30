@@ -1,0 +1,23 @@
+/* Single article page layout styles */
+#single-article-page .container { 
+    padding: 4rem 40px; 
+}
+
+#single-article-page .single-article-wrapper { 
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+.article-meta-bar {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    border-top: 2px solid var(--color-brand-green);
+    color: var(--color-brand-green); 
+    font-size: 12px; 
+    font-weight: 700; 
+    letter-spacing: 0.05em; 
+    text-transform: uppercase;
+    padding-top: 1rem;
+}
+[END_FILE]

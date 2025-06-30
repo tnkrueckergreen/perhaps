@@ -1,0 +1,22 @@
+<svg width="120" height="90" viewBox="0 0 120 90" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  
+  <!-- Main envelope body -->
+  <rect x="15" y="25" width="90" height="55" 
+        fill="#5c7cfa" 
+        rx="8" 
+        filter="url(#shadow)"/>
+  
+  <!-- Envelope flap/arrow -->
+  <path d="M25 35 L60 55 L95 35" 
+        fill="none" 
+        stroke="#ffffff" 
+        stroke-width="4" 
+        stroke-linecap="round" 
+        stroke-linejoin="round"/>
+</svg>
+[END_FILE]

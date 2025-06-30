@@ -1,0 +1,10 @@
+/* --- MAIN COPYRIGHT FOOTER --- */
+.main-footer {
+    background-color: #f9f9f9;
+    border-top: 1px solid var(--color-border);
+    text-align: center;
+    padding: 2.5rem 2rem;
+    color: var(--color-text-secondary);
+    font-size: 0.9rem;
+}
+[END_FILE]

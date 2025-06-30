@@ -1,0 +1,9 @@
+/* Single article main image */
+.single-article-image { 
+    margin: 3rem auto; 
+    border-radius: 12px; 
+    max-height: 70vh; 
+    width: 100%; 
+    object-fit: cover; 
+}
+[END_FILE]

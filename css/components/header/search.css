@@ -1,0 +1,63 @@
+/* Header search styles */
+.header-search-container {
+    display: none;
+    width: 100%;
+}
+
+#header-search-form {
+    width: 100%;
+    position: relative;
+}
+
+#header-search-input {
+    width: 100%; 
+    border: none; 
+    border-bottom: 1px solid var(--color-border);
+    background-color: transparent; 
+    font-size: 1rem; 
+    font-family: var(--font-sans);
+    color: var(--color-dark); 
+    padding: 0.5rem 2rem 0.5rem 0;
+}
+
+/* Hide default browser clear button */
+#header-search-input::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    display: none;
+}
+
+#header-search-input:focus { 
+    outline: none; 
+    border-bottom-color: var(--color-brand-green); 
+}
+
+/* Custom clear button */
+.header-search-clear-btn {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    padding: 4px;
+    cursor: pointer;
+    color: var(--color-text-secondary);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.header-search-clear-btn.visible {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.header-search-clear-btn:hover {
+    color: var(--color-dark);
+}
+
+/* Search active state */
+body.search-active .main-nav { display: none; }
+body.search-active .header-search-container { display: block; }
+body.search-active .button-primary { display: none; }
+[END_FILE]
